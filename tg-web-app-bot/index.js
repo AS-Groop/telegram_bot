@@ -12,7 +12,7 @@ bot.on('message', async (msg) => {
   const text = msg.text;
 
   if(text==='/start') {
-    await bot.sendMessage(chatId, 'Pastda tugma paydo bo`ladi', {
+    await bot.sendMessage(chatId, 'Pastda tugma paydo  bo`ladi', {
       reply_markup: {
         inline_keyboard: [
           [{text: "button", callback_data: 'fds'}, {text: "kun.uz", web_app: {url: 'https://kun.uz'}}]
