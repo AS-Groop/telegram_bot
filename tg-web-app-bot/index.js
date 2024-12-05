@@ -15,7 +15,7 @@ bot.on('message', async (msg) => {
     await bot.sendMessage(chatId, 'Pastda tugma paydo  bo`ladi', {
       reply_markup: {
         inline_keyboard: [
-          [{text: "button", callback_data: 'fds'}, {text: "kun.uz", web_app: {url: 'https://kun.uz'}}]
+          [{text: "button", callback_data: 'fds'}, {text: "OpenApp", web_app: {url: 'https://telegrambotfortest.netlify.app/'}}]
         ]
       }
     })
